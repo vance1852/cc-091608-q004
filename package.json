@@ -1,0 +1,1 @@
+{"name":"fall-rescue-orchestration","version":"0.1.0","private":true,"type":"module","scripts":{"check":"tsc --noEmit","test":"npm run check"},"devDependencies":{"typescript":"5.9.2"}}

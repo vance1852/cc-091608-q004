@@ -1,0 +1,1 @@
+{"wearerId":"elder-08","scenarios":[{"name":"误触取消","eventId":"fall-1","worn":false,"receivedDelaySeconds":2},{"name":"无人响应","eventId":"fall-2","worn":true,"stillSeconds":90,"responses":[]},{"name":"离线补传","eventId":"fall-3","worn":true,"capturedAt":"2026-09-15T09:10:00+08:00","receivedAt":"2026-09-15T12:40:00+08:00"}]}
