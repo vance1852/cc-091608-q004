@@ -1,1 +1,15 @@
-{"name":"fall-rescue-orchestration","version":"0.1.0","private":true,"type":"module","scripts":{"check":"tsc --noEmit","test":"npm run check"},"devDependencies":{"typescript":"5.9.2"}}
+{
+  "name": "fall-rescue-orchestration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "tsc --noEmit && node --experimental-strip-types --test src/scenarios.test.ts",
+    "demo": "node --experimental-strip-types src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "5.9.2"
+  }
+}
